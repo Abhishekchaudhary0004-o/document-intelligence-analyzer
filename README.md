@@ -20,3 +20,17 @@ An end-to-end AI-powered document analysis system using OCR and Large Language M
 - Download results as JSON
 
 ## 📂 Project Structure
+
+document-intelligence-analyzer/
+├── app.py              # Main Streamlit application
+├── ocr.ipynb           # OCR pipeline notebook
+├── requirements.txt    # Dependencies
+└── README.md
+
+## ⚙️ How to Run Locally
+
+pip install -r requirements.txt
+streamlit run app.py
+
+## 👨‍💻 Author
+Abhishek Chaudhary — B.Tech CSIT, AKGEC Ghaziabad
