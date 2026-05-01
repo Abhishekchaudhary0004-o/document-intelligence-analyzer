@@ -1,19 +1,22 @@
----
-title: Document Intelligence Analyzer
-emoji: 📄
-colorFrom: yellow
-colorTo: orange
-sdk: gradio
-sdk_version: 4.44.0
-app_file: app.py
-pinned: false
----
+# 📄 Document Intelligence Analyzer
 
-# 📄 Document Intelligence Analyzer (DIA)
+An end-to-end AI-powered document analysis system using OCR and Large Language Models (LLMs) to extract, interpret, and query text from images and PDFs.
 
-Upload any document image (ID card, invoice, receipt, certificate) and get:
-- **OCR text extraction** via EasyOCR
-- **Structured field parsing** via Gemini AI
-- **Document type detection** and summary
+## 🚀 Live Demo
+[Click here to try the app](https://document-intelligence-analyzer-4viww4wuxtzlqp4vcn3appx.streamlit.app/)
 
+## 🛠️ Tech Stack
+- **Python** — Core language
+- **EasyOCR** — Optical Character Recognition pipeline
+- **Google Gemini API** — LLM for document analysis & fraud detection
+- **Streamlit** — Frontend web interface
+- **JSON Export** — Structured output for downstream use
 
+## ✨ Features
+- Upload scanned documents or images
+- Automatically extract text using OCR
+- Ask questions about the document (conversational AI)
+- Detect anomalies and potential fraud
+- Download results as JSON
+
+## 📂 Project Structure
